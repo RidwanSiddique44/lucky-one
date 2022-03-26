@@ -7,3 +7,9 @@
     grid-template-columns: repeat(3,1fr);
     gap:40px;
 }
+.cart-container{
+    border-radius: 10px;
+    background-color: silver;
+    margin: 5px;
+    position: sticky;
+}
