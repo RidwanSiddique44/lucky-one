@@ -9,7 +9,7 @@ const Cart = (props) => {
     let oneItem = props.cart
     function chooseItem() {
         const result = oneItem[Math.floor((Math.random() * oneItem.length))];
-        console.log(result)
+
         document.getElementById('cart-item').innerHTML = `<h2>${result}</h2>`;
 
     }
