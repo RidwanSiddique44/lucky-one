@@ -5,6 +5,7 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div className="App">
+      <h1 className='heading'>Gadget Zone</h1>
       <Shop></Shop>
     </div>
   );
